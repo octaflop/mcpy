@@ -26,13 +26,15 @@ def get_build_tools(ctx):
     os.chdir("/tmp")
     ctx.run("wget -O lpm.zip https://sourceforge.net/projects/python-with-minecraft-mac/files/latest/download")
     ctx.run("unzip lpm.zip -d lpm")
-    ctx.run("rsync -rltvh --progress lpm/Minecraft\ Tools/server/ {}/".format(BUILD_PATH))
 
+@task
+def copy_world(ctx):
+    ctx.run("rsync -rltvh --progress /tmp/lpm/MinecraftTools/server/ {}/".format(BUILD_PATH))
 
 @task
 def clean_build_tools(ctx):
     os.chdir(REL)
-    ctx.run("rm -rvf mcbuild")
+    ctx.run("rm -rvf mcbuild/")
 
 
 @task
