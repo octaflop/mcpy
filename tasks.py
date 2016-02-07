@@ -24,7 +24,7 @@ def get_build_tools(ctx):
     os.chdir("mcbuild")
     ctx.run("java -jar BuildTools.jar")
     os.chdir("/tmp")
-    ctx.run("wget -O lpm.zip https://sourceforge.net/projects/python-with-minecraft-windows/files/latest/download")
+    ctx.run("wget -O lpm.zip https://sourceforge.net/projects/python-with-minecraft-mac/files/latest/download")
     ctx.run("unzip lpm.zip -d lpm")
     ctx.run("rsync -rltvh --progress lpm/Minecraft\ Tools/server/ {}/".format(BUILD_PATH))
 
