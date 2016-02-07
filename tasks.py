@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from invoke import ctask as task
 import webbrowser
 
+import os
 
 @task
 def docs(ctx):
@@ -13,5 +14,6 @@ def docs(ctx):
 
 @task
 def get_build_tools(ctx):
-    ctx.run("wget -O mcbuild/BuildTools https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar")
-    ctx.run("cd mcbuild && java -jar BuildTools.jar")
+    ctx.run("mkdir mcbuild; wget -O mcbuild/BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar")
+    os.chdir("mcbuild")
+    ctx.run("java -jar BuildTools.jar")
