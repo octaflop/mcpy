@@ -4,8 +4,10 @@ Java Installation Notes
 Ubuntu Java notes
 -----------------
 
-```bash
+Using the webup8team's ppa, we'll install java 8
+
+.. code-block:: bash
+
     sudo apt-get-repository ppa:webupd8team/java
     sudo apt-get update
     sudo apt-get install oracle-java8-installer
-```

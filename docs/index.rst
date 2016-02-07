@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    java_installation
+   mc_buildtools
 
 
 
