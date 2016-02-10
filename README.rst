@@ -5,3 +5,9 @@ This guide and talk are structured around a linux ubuntu installation. Installat
 
 Unfortunately, there's still lot of outdated documentation on the web, so I'm hoping to compile the most useful info into the ``docs`` folder.
 
+Meetup Talk Link: http://www.meetup.com/SLCPython/events/227895854/
+
+Basic Installation
+------------------
+
+``mkvirutalenv -p /usr/bin/python3 mcpy && workon mcpy && pip install -r requirements.txt && inv docs `` 
