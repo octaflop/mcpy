@@ -10,4 +10,6 @@ Meetup Talk Link: http://www.meetup.com/SLCPython/events/227895854/
 Basic Installation
 ------------------
 
-``mkvirutalenv -p /usr/bin/python3 mcpy && workon mcpy && pip install -r requirements.txt && inv docs `` 
+.. code-block:: bash
+
+  mkvirutalenv -p /usr/bin/python3 mcpy && workon mcpy && pip install -r requirements.txt && inv docs
