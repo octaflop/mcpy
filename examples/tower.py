@@ -5,6 +5,11 @@ import mcpi.block as block
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
+"""
+A very basic tower.
+Teaches fundamentals of block placement.
+"""
+
 position = mc.player.getTilePos()
 x, y, z = position.x, position.y, position.z
 
