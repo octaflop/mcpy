@@ -28,4 +28,9 @@ for x in range(0, 128):
     for ci in range(0, len(colors)):
         y = sin((x / 128.0) * pi) * height + ci
         x = (x - 64 ) 
-        mc.setBlock(x, y, 0, block.WOOL.id, colors[len(colors) - 1 - ci])
+        mc.setBlock(
+            x,
+            y,
+            0,
+            block.WOOL.id,
+            colors[len(colors) - 1 - ci])

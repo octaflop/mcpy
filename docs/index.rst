@@ -13,6 +13,7 @@ Contents:
 
    java_installation
    mc_buildtools
+   minecraft_commands
 
 
 

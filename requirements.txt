@@ -13,7 +13,6 @@ docutils==0.12
 invoke==0.12.1
 ipython==4.1.1
 ipython-genutils==0.1.0
-livereload==2.4.1
 path.py==8.1.2
 pathtools==0.1.2
 pexpect==4.0.1
