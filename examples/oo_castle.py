@@ -7,29 +7,25 @@ mc = Minecraft.create()
 
 """
 http://www.raspberrypi-spy.co.uk/2014/06/building-a-castle-in-minecraft-with-python/
+--------------------------------------
+
+    Minecraft Python API
+       Castle Builder
+
+This script creates a castle complete
+with moat and perimeter walls.
+
+Author : Matt Hawkins
+Date   : 07/06/2014
+
+http://www.raspberrypi-spy.co.uk/
+
+--------------------------------------
 """
-#!/usr/bin/python
-#--------------------------------------
-#
-#     Minecraft Python API
-#        Castle Builder
-#
-# This script creates a castle complete
-# with moat and perimeter walls.
-#
-# Author : Matt Hawkins
-# Date   : 07/06/2014
-#
-# http://www.raspberrypi-spy.co.uk/
-#
-#--------------------------------------
 
 mc.postToChat("Let's build a castle!")
  
-#--------------------------------------
-# Define Functions
-#--------------------------------------
- 
+
 def CreateWalls(size,baseheight,height,material,battlements,walkway):
   # Create 4 walls with a specified width, height and material.
   # Battlements and walkways can also be added to the top edges.
