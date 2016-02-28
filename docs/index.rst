@@ -15,6 +15,7 @@ Contents:
    mc_buildtools
    minecraft_commands
    examples
+   presentation_outline
 
 
 
