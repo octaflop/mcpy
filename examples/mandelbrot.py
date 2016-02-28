@@ -57,7 +57,8 @@ if __name__ == "__main__":
     mc.postToChat("Drawing Mandelbrot set")
     time.sleep(1)
     x, y, z = mc.player.getTilePos()
-    # drawMandelbrot(x, y, z, 60, 60, 254, -2.0, -1.5, 1.0, 1.5 )
-    drawMandelbrot( x-40, y-1, z-40, 80, 80, 100, -1.6, 0.0, -1.0, 0.3 )
-    #drawMandelbrot( x-128, y-1, z-128, 256, 256, 14, -1.6, 0.0, -1.0, 0.3 )
+    drawMandelbrot(x, y, z, 60, 60, 254, -2.0, -1.5, 1.0, 1.5 )
+    # drawMandelbrot( x-40, y-1, z-40, 80, 80, 100, -1.6, 0.0, -1.0, 0.3 )
+    # drawMandelbrot( x-128, y-1, z-128, 256, 256, 14, -1.6, 0.0, -1.0, 0.3 )
+    # OVERLOADS SERVER!
     # drawMandelbrot( x-128, y-1, z-128, 256, 256, 255, -2.0, -1.5, 1.0, 1.5 )
