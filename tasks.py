@@ -54,3 +54,15 @@ def start_server(ctx):
     os.chdir("mcbuild")
     ctx.run("java -jar craftbukkit-1.8.8.jar")
 
+
+@task
+def dl_galacticraft(ctx):
+    """
+    Downloads galacticcraft mods
+    """
+    os.chdir("mcbuild")
+    os.mkdir("galacticraft")
+    os.chdir("galacticraft")
+    ctx.run("wget http://ci.micdoodle8.com/job/Galacticraft-1.7/375/artifact/Forge/build/libs/GalacticraftCore-1.7-3.0.12.375.jar")
+    ctx.run("wget http://ci.micdoodle8.com/job/Galacticraft-1.7/375/artifact/Forge/build/libs/Galacticraft-Planets-1.7-3.0.12.375.jar")
+    ctx.run("wget http://ci.micdoodle8.com/job/Galacticraft-1.7/375/artifact/Forge/build/libs/MicdoodleCore-1.7-3.0.12.375.jar")
