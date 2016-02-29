@@ -33,3 +33,22 @@ Run ``ipython`` and import the minecraft api:
 
 ``ipython`` is awesome because you can start writing some code, and then hit
 tab to see what functions are available in that module. You can also use ``help(<module>)`` to see more details about the module (Use ``q`` to quit).
+
+
+PYTHON!
+-------
+
+Modules
++++++++
+
+
+Loops
++++++
+
+
+Functions
++++++++++
+
+
+Classes
++++++++
