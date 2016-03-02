@@ -12,4 +12,4 @@ Basic Installation
 
 .. code-block:: bash
 
-  mkvirutalenv -p /usr/bin/python3 mcpy && workon mcpy && pip install -r requirements.txt && inv docs
+  mkvirtualenv -p /usr/bin/python3 mcpy && workon mcpy && pip install -r requirements.txt && inv docs
