@@ -53,6 +53,13 @@ Our main import is ``mcpi`` but we don't want to import the whole library and al
     from mcpi.minecraft import Minecraft
     import mcpi.blocks as blocks
 
+
+.. note:: We will be using 3D coordinates to place our blocks, (x, y, z). Here's a quick refresher:
+
+
+.. image:: _static/img/3D_coords.png
+
+
 Examples
 ********
 
