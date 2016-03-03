@@ -56,23 +56,38 @@ Our main import is ``mcpi`` but we don't want to import the whole library and al
 Examples
 ********
 
-``hello_world.py``
+* ``hello_world.py``
 
 
 Loops
 +++++
 
 Loops are more than just a way to repeat something, they're also a way to dig through a list of things.
+In our tower examples, we use loops for both height and for digging through a list of color blocks.
 
 Examples
 ********
 
-In our tower examples, we use loops for both height and for digging through a list of color blocks.
+* ``tower.py``
+* ``random_tower.py``
+* ``rainbow_tower.py``
 
 
 Functions
 +++++++++
 
+Functions are a great way of capturing a set of commands so you don't have to repeat yourself over and over (let the code do that!). In our previous example, the tower code was pretty much doing the same thing, but what if we just wanted to change it just a little without re-writing all of that code? That's where functions come in.
 
-Classes
-+++++++
+Examples
+********
+
+* ``functional_tower.py``
+
+
+Classes (Advanced)
+++++++++++++++++++
+
+Examples
+********
+
+* ``oo_castle.py``
