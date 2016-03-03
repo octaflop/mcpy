@@ -38,12 +38,36 @@ tab to see what functions are available in that module. You can also use ``help(
 PYTHON!
 -------
 
-Modules
-+++++++
+Modules or: Why write the same code twice?
+++++++++++++++++++++++++++++++++++++++++++
+
+Your fellow pythonistas have probably already solved the problem your trying to solve. Or at least something similar.
+Rather than copying all of their code, or keeping all code in one file, you can import it with the ``from`` and ``import`` keywords.
+
+Once you've imported, you can write ``help(<imported module>)`` to see the many functions of that code.
+
+Our main import is ``mcpi`` but we don't want to import the whole library and all of its functions, so we use ``from`` to help specify exactly what we're importing. If we want to import as a different word, we can use the ``as`` keyword:
+
+.. code-block:: python
+
+    from mcpi.minecraft import Minecraft
+    import mcpi.blocks as blocks
+
+Examples
+********
+
+``hello_world.py``
 
 
 Loops
 +++++
+
+Loops are more than just a way to repeat something, they're also a way to dig through a list of things.
+
+Examples
+********
+
+In our tower examples, we use loops for both height and for digging through a list of color blocks.
 
 
 Functions
