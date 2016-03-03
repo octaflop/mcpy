@@ -78,6 +78,8 @@ Functions
 
 Functions are a great way of capturing a set of commands so you don't have to repeat yourself over and over (let the code do that!). In our previous example, the tower code was pretty much doing the same thing, but what if we just wanted to change it just a little without re-writing all of that code? That's where functions come in.
 
+"Parameters" are the new variables we feed into the function so we don't have to repeat ourselves.
+
 Examples
 ********
 
