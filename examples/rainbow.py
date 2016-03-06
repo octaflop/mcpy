@@ -27,7 +27,7 @@ mc = Minecraft.create()
 position = mc.player.getTilePos()
 px, py, pz = position.x, position.y, position.z
 
-for curve_x in range(0, RAINBOW_WIDTH):
+for curve_x in range(RAINBOW_WIDTH):
     curve = sin(pi * float(curve_x) / float(RAINBOW_WIDTH)) * RAINBOW_HEIGHT
     for color in COLORS:
         map_pos_y = int(curve) - COLORS.index(color)
